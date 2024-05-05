@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+    }
+.nav{
+    width: 1000x;
+    height: 100px;
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+    border-top: 3px solid #2c4152;
+    z-index: 101;
+    border-bottom: 1px solid #e0e0e0;
+    
+}
+.nav-logo{
+        width: 130px;
+    height: 34px;
+   }
+.logo{
+    background-image: url("Ajio-Logo.svg");
+    height: 34px;
+    width: 130px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+}
+.all{
+    width: 1000px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+
+}
+.all li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.nav-search{
+    width: 270px;
+    height: 35px;
+    color: #333333;
+margin-bottom: 25px;
+margin-left: 30px; 
+}
+.place{
+    width: 270px;
+    height: 34px;
+    background-color:#fffded;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 0px 20px  0px 12px;
+    font-weight: 300;
+
+}
+.nav-icons{
+    width: 34px;
+    height: 34px;
+    margin-left: 60px;
+    font-size: 35px;
+    margin-bottom: 33px;
+    color: #2c4152;
+}
+
+.nav-icon-2{
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    background-color: #2c4152;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+        justify-content: center;
+        margin-top: 4px;
+
+}
+.istimage{
+    background-image: url("istimage.avif");
+    background-repeat: no-repeat;
+    height:400px;
+    width: 2000px;
+    margin-left: 20px;
+    
+}
+.secimage{
+    background-image: url("Federal\ Bank-1440x128\ 1a.avif");
+    background-repeat: no-repeat;
+    width: 1800px;
+    height: 160px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.thirdimage{
+    background-image: url("thirdimage.avif");
+    background-repeat: no-repeat;
+    width: 1800px;
+    height: 100px;
+    margin-left: 20px;
+
+}
+.brands{
+    width: 1450px;
+    height: 90px;
+    background-color:rgb(255, 213, 0);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.maincontent{
+    width: 1450px;
+    height: 520px;
+    background-color:rgb(255, 213, 0);
+    display: flex;
+    
+    
+}
+.picture1{
+    background-image: url("fifthimage.webp");
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 520px;
+    margin-left: 14px;
+}
+.picture2{
+    background-image: url("fourthimage.avif");
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 520px;
+    margin-left: 14px;
+}
+
+.picture3{
+    background-image: url("sixthimage.avif");
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 520px;
+    margin-left: 14px;
+}
+
+.picture4{
+    background-image: url("sevenimage.avif");
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 520px;
+    margin-left: 14px;
+}
+.advertise{
+    width: 1450px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.eight{
+    background-image: url("eightimage.avif");
+    background-repeat: no-repeat;
+    height:400px;
+    width: 2000px;
+}
+.birthdaybuys{
+    width: 1450px;
+    height: 100px;
+    background-color: rgb(255, 111, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+}
+.nineth{
+    background-image: url("nineth.webp");
+    background-repeat: no-repeat;
+    height:400px;
+    width: 2000px;
+
+}
+.text{
+    width: 1450px;
+    height: 100px;
+    background-color:rgb(19, 170, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+}
+.tenth{
+    background-image: url("tenth.jpg");
+    background-repeat: no-repeat;
+    height:400px;
+    width: 2000px;
+
+}
+.text2{
+    width: 1450px;
+    height: 100px;
+   background-color: rgb(201, 66, 201) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+
+}
+.wardrobe{
+    width: 1450px;
+    height: 100px;
+   background-color: rgb(237, 153, 56);
+
+   
+    color: white;
+    font-weight: 600;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+    
+}
+.wardrobe h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ padding-top: 20px;
+}
+.wardrobe p{
+    margin-left: 650px;
+    font-size: 20px;
+    font-family: cursive;
+    padding-bottom: 30px;
+}
+.maincontent2{
+    width: 1450px;
+    height: 440px;
+    background-color: rgb(237, 153, 56);
+    display: flex;
+    
+    
+}
+.pic1{
+    background-image: url("adidas.avif");
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 520px;
+    margin-left: 14px;
+}
+.pic2{
+    background-image: url("puma.avif");
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 520px;
+    margin-left: 14px;
+}
+
+.pic3{
+    background-image: url("louis.avif");
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 520px;
+    margin-left: 14px;
+}
+
+.pic4{
+    background-image: url("gap.avif");
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 520px;
+    margin-left: 14px;
+}
+.text3{
+    width: 1450px;
+    height: 100px;
+   background-color: rgb(32, 203, 255) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+
+}
+.twelth{
+    background-image: url("campus.avif");
+    background-repeat: no-repeat;
+    height:400px;
+    width: 2000px;
+}
+footer{
+    width: 1450px;
+    height: 300px;
+    background-color: #2c4152;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: #ccc;
+    border-bottom: 0.5px solid white;
+    
+}
+footer ul{
+    display: inline-block;
+    text-transform: capitalize;
+    list-style-type: none;
+    margin-top: 40px;
+    
+    }
+ul li{
+    font-size: 0.85rem;
+    margin: 10px;
+    
+    
+}
+ul p{
+    margin-left: 10px;
+}
+.payment{
+    width: 1450px;
+    height: 70px;
+    background-color: #2c4152;
+    color: #ccc;
+    padding-top: 20px;
+
+
+}
+.payment p{
+    display: inline-block;
+    margin: 5px;
+    margin-top: 05px;
+    
+    padding-bottom: 10px;
+}
+.payment h2{
+    margin-left: 10px;
+    font-size: 0.9rem;
+    font-family: 'Times New Roman';
+}
